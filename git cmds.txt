@@ -1,0 +1,4 @@
+git push irigin master
+git add -A
+git clone <link>
+git status
