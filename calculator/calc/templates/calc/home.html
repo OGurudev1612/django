@@ -1,0 +1,18 @@
+<h1>home</h1>
+<form action={% url 'calc' %}>
+<div class="radio">
+    <label><input type="radio" name="optradio" checked>plus</label>
+  </div>
+  <div class="radio">
+    <label><input type="radio" name="optradio">minus</label>
+  </div>
+  <div class="radio">
+    <label><input type="radio" name="optradio" >division</label>
+  </div>
+  <div class="radio">
+    <label><input type="radio" name="optradio" >multiply</label>
+  </div>
+  <input name='field1'></input>
+  <input name='field2'></input>
+  <button type="submit" >submit</button>
+</form>
